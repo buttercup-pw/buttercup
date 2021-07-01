@@ -1,0 +1,293 @@
+{
+    "_": "Italiano (IT)",
+    "about": {
+        "description": "Un software gratuito, open-source e multi piattaforma per la gestione delle password.",
+        "dialog": {
+            "close-button": "Chiudi",
+            "close-button-title": "Chiudi la finestra informazioni"
+        },
+        "title": "Informazioni su Buttercup",
+        "version": {
+            "core": "Core",
+            "desktop": "Desktop"
+        }
+    },
+    "add-vault-menu": {
+        "choose-file-prompt": "Scegli un archivio o creane uno nuovo:",
+        "choose-type-prompt": "Scegli un tipo di archivio da aggiungere:",
+        "confirm": {
+            "existing-password": "Inserisci la password dell'archivio:",
+            "new-password": "Inserisci una nuova password per l'archivio:",
+            "password-placeholder": "Password dell'archivio..."
+        },
+        "google-auth-button": "Accedi",
+        "google-auth-button-title": "Accedi con Google Drive",
+        "google-auth-error": "Autenticazione Google fallita",
+        "loader": {
+            "dropbox-auth": "Si aprirà una nuova finestra per l'autenticazione",
+            "file-prompt": "Si aprirà una finestra di dialogo per scegliere il file archivio",
+            "google-auth": {
+                "instr-1": "Puoi scegliere il livello di autorizzazione che Buttercup utilizzerà durante l'accesso al tuo account <strong>Google Drive</strong>.",
+                "instr-2": "Selezionare un livello di autorizzazione <strong>aperto</strong> garantirà a Buttercup l'accesso a tutti i file e le cartelle nel tuo account e le condivisioni.",
+                "instr-3": "Selezionare un livello di autorizzazione <i>non-</i>aperto garantirà a Buttercup l'accesso ai file che sono stati creati o a cui ha avuto accesso precedentemente.",
+                "perm-label": "Permessi",
+                "perm-switch": "Apri"
+            },
+            "webdav-auth": {
+                "password-label": "Password",
+                "password-plc": "Password WebDAV",
+                "url-label": "Indirizzo WebDAV",
+                "username-label": "Username",
+                "username-plc": "Username WebDAV"
+            }
+        },
+        "page-choose-next": "Avanti",
+        "page-choose-next-title": "Continua ad aggiungere un archivio",
+        "page-confirm-cancel": "Annulla",
+        "page-confirm-cancel-title": "Annulla sblocco",
+        "page-confirm-finish": "Aggiungi archivio",
+        "page-confirm-finish-title": "Conferma aggiunta archivio",
+        "title": "Aggiungi archivio",
+        "webdav-continue": "Avanti",
+        "webdav-continue-title": "Connetti utilizzando WebDAV"
+    },
+    "add-vault-page": {
+        "cta-button": "Aggiungi archivio",
+        "description": "Non è ancora stato aggiunto nessun archivio...",
+        "title": "Un nuovo inizio"
+    },
+    "app-menu": {
+        "about": "Informazioni su Buttercup",
+        "add-new-vault": "Nuovo archivio",
+        "biometrics": "Utilizza sblocco biometrico",
+        "close-window": "Chiudi finestra",
+        "connection": "Connessione",
+        "current": "Archivio corrente",
+        "debug": "Debug",
+        "devtool": "Strumenti sviluppatore",
+        "edit": "Modifica",
+        "enable-secure-file-host": "Abilita l'accesso dal browser",
+        "export": "Esporta",
+        "import": "Importa",
+        "lock-all": "Blocca tutti",
+        "open": "Apri",
+        "open-vault": "Apri archivio",
+        "preferences": "Preferenze",
+        "quit": "Esci",
+        "search": "Cerca",
+        "unlock-vault": "Sblocca",
+        "unlocked-vaults": "{{count}} archivio sbloccato",
+        "unlocked-vaults_plural": "{{count}} archivi sbloccati",
+        "vaults": "Archivi",
+        "view": "Schermata",
+        "window": "Finestra",
+        "window-reposition": "Riposiziona"
+    },
+    "biometrics": {
+        "prompt": {
+            "store": "Salva login per l'archivio '{{name}}'",
+            "unlock-vault": "Sblocca archivio '{{name}}'"
+        }
+    },
+    "dialog": {
+        "attachment-save": {
+            "confirm-button": "Salva",
+            "title": "Scarica l'allegato"
+        },
+        "biometric-reg": {
+            "button-cancel": "Annulla",
+            "button-cancel-title": "Annulla registrazione",
+            "button-reg": "Registra",
+            "button-reg-title": "Registra dati biometrici",
+            "label": "Password archivio",
+            "placeholder": "Password archivio...",
+            "success": "Dati biometrici registrati con successo",
+            "title": "Registra dati biometrici"
+        },
+        "confirm-generic": {
+            "cancel-button": "Annulla",
+            "confirm-button": "Conferma"
+        },
+        "export-file-chooser": {
+            "submit-button": "Esporta",
+            "title": "Esporta archivio '{{name}}'"
+        },
+        "file-chooser": {
+            "add": {
+                "cancel": "Annulla",
+                "cancel-title": "Annulla creazione nuovo archivio",
+                "confirm": "Scegli la posizione dell'archivio",
+                "confirm-title": "Conferma il nome del nuovo archivio",
+                "description": "Inserisci un nome per il nuovo archivio:",
+                "title": "Aggiungi archivio"
+            },
+            "nav": {
+                "cancel-new": "Annulla nuovo archivio",
+                "create-new": "Crea nuovo archivio"
+            }
+        },
+        "file-vault": {
+            "add-existing": {
+                "bcup-filter": "Archivi di Buttercup",
+                "confirm-button": "Aggiungi",
+                "title": "Aggiungi archivio esistente"
+            },
+            "add-new": {
+                "bcup-filter": "Archivi di Buttercup",
+                "confirm-button": "Crea",
+                "title": "Aggiungi nuovo archivio"
+            }
+        },
+        "import-file-chooser": {
+            "submit-button": "Importa",
+            "title": "Importa da {{importer}} archivio"
+        },
+        "new-file-prompt": {
+            "button-cancel": {
+                "text": "Chiudi",
+                "title": "Chiudi finestra"
+            },
+            "button-existing": {
+                "text": "Carica esistente",
+                "title": "Carica un file archivio esistente"
+            },
+            "button-new": {
+                "text": "Crea nuovo",
+                "title": "Crea nuovo file archivio"
+            },
+            "prompt": "Vuoi creare un <i>nuovo</i> archivio, o leggerne uno esistente?",
+            "title": "Aggiungi File archivio"
+        },
+        "password-prompt": {
+            "button-cancel": "Annulla",
+            "button-cancel-title": "Annulla sblocco",
+            "button-unlock": "Sblocca",
+            "button-unlock-title": "Conferma sblocco archivio",
+            "label": "Password archivio",
+            "placeholder": "Password archivio...",
+            "title": "Sblocca archivio"
+        }
+    },
+    "error": {
+        "biometric-invalid-password": "Una password non valida è stata inserita per abilitare lo sblocco biometrico su un archivio",
+        "biometric-store-failed": "Salvataggio fallito dei dettagli biometrici",
+        "biometric-unlock-failed": "Sblocco biometrico dell'archivio fallito",
+        "fatal-boundary": "Errore fatale - ci scusiamo per l'accaduto. Si prega di controllare i dettagli sottostanti per effettuare una diagnosi dell'errore:"
+    },
+    "file-host": {
+        "code-copied": "Codice copiato",
+        "dialog": {
+            "close-button": "Chiudi",
+            "close-button-title": "Chiudi finestra di connessione",
+            "instruction": {
+                "new-connection": "Una nuova connessione è stata effettuata a questa applicazione, che richiede accesso remoto al file system.",
+                "use-code": "Usa il seguente codice per autorizzarlo."
+            },
+            "title": "Connessione sicura File Host"
+        }
+    },
+    "input-required": "(obbligatorio)",
+    "notification": {
+        "attachment-downloaded": "Allegato salvato con successo",
+        "biometrics-disabled": "Autenticazione biometrica disabilitata per l'archivio",
+        "error": {
+            "biometrics-disable-failed": "Disabilitazione autenticazione biometrica per l'archivio fallita: {{error}}",
+            "import-failed": "Importazione fallita: {{error}}",
+            "languages-load": "Caricamento lingue fallito",
+            "preferences-load": "Caricamento preferenze fallito",
+            "preferences-save": "Salvataggio preferenze fallito",
+            "unknown-error": "Errore sconosciuto",
+            "vault-lock-failed": "Blocco archivio fallito",
+            "vault-save-failed": "Salvataggio archivio fallito",
+            "vault-unlock-failed": "Sblocco archivio fallito"
+        },
+        "export-success": "Archivio esportato con successo: {{name}}",
+        "import-success": "Archivio importato con successo: {{filename}}",
+        "preferences-saved": "Preferenze salvate",
+        "vault-saved": "Archivio salvato"
+    },
+    "preferences": {
+        "button": {
+            "cancel": "Annulla",
+            "cancel-title": "Annulla modifiche preferenze",
+            "save": "Salva",
+            "save-title": "Salva modifiche"
+        },
+        "item": {
+            "clear-clipboard": "Pulisci automaticamente gli appunti",
+            "language": "Lingue",
+            "lock-vaults-after-time": "Blocco automatico degli archivi",
+            "lock-vaults-after-time-desc": "Blocca automaticamente gli archivi dopo un periodo di inattività.",
+            "lock-vaults-window-closed": "Blocca gli archivi se la finestra viene chiusa",
+            "lock-vaults-window-closed-label": "Blocco alla chiusura",
+            "secure-file-host": {
+                "description": "Il secure file host consente all'<strong>Estensione del Browser di Buttercup</strong> di connettersi agli archivi locali su questo PC tramite questa applicazione.",
+                "label": "Abilita secure file host",
+                "title": "Secure file host"
+            },
+            "theme": "Tema"
+        },
+        "section": {
+            "connectivity": "Connettività",
+            "debug": "Debug",
+            "general": "Generale",
+            "privacy": "Privacy",
+            "security": "Sicurezza"
+        },
+        "title": "Preferenze"
+    },
+    "search": {
+        "modal": {
+            "no-results": "Nessun risultato...",
+            "result-render-error": "Fallito il rendering dei risultati di ricerca"
+        }
+    },
+    "source-type": {
+        "dropbox": "Dropbox",
+        "file": "File",
+        "googledrive": "Google Drive",
+        "webdav": "WebDAV"
+    },
+    "theme": {
+        "dark": "Scuro",
+        "light": "Chiaro"
+    },
+    "update": {
+        "available": "Aggiornamento disponibile: {{version}}",
+        "dialog": {
+            "close-button": "Chiudi",
+            "close-button-title": "Chiudi informazioni di aggiornamento",
+            "title": "Aggiorna alla versione {{version}}",
+            "update-button": "Aggiorna",
+            "update-button-title": "Aggiorna l'applicazione ora"
+        },
+        "downloaded": "Aggiornamento scaricato",
+        "installed-restart": "Riavvia",
+        "ready": "Aggiornamento pronto: {{version}}",
+        "view": "Visualizza"
+    },
+    "vault-editor": {
+        "locked-state": "Archivio bloccato"
+    },
+    "vault-management": {
+        "close-button": "Chiudi",
+        "close-button-title": "Chiudi gestione archivi",
+        "remove-vault-dialog": {
+            "cancel-button": "Annulla",
+            "cancel-button-title": "Annulla rimozione",
+            "description": "Sei sicuro di voler rimuovere l'archivio \"{{title}}\"?",
+            "remove-button": "Rimuovi",
+            "remove-button-title": "Conferma la rimozione dell'archivio",
+            "title": "Rimuovi archivio"
+        },
+        "title": "Gestione archivi"
+    },
+    "vault-sidebar": {
+        "options-popup": {
+            "add-vault": "Aggiungi archivio",
+            "lock-current-vault": "Blocca l'archivio corrente",
+            "manage-vaults": "Gestione archivi"
+        },
+        "vault-contents": "Contenuti archivi"
+    }
+}
